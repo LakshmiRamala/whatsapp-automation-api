@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-automation-api",
+  "version": "1.0.0",
+  "description": "Meta WhatsApp Business API integration for automated message workflows",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "meta-api",
+    "automation",
+    "nodejs",
+    "express",
+    "redis",
+    "webhook",
+    "messaging"
+  ],
+  "author": "Naga Lakshmi Ramala",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
